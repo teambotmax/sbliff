@@ -652,9 +652,6 @@ def my_worker(op):
                 path = client.line_obs+'/talk/m/download.nhn?oid='+msg_id
                 link = client.download_link(path, ".mp3", True)
                 temporary["unsend"][msg.id] = {"type":"audio","link":link,"from":msg._from}
-            if (datetime.datetime.now()-temporary["last_time"]).total_seconds() > 1800:
-                temporary["unsend"].clear()
-                temporary["last_time"] = datetime.datetime.now()
 
         if cmd == "autodirectlink" and sender == client.my_mid:
             if client.temp_data["autodirectlink"]["status"] == True:
