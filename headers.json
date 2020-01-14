@@ -1,0 +1,37 @@
+{
+    "android_lite": {
+        "User-Agent": "LLA/2.10.3 SM-G930L 5.1.1",
+        "X-Line-Access": null,
+        "X-Line-Application": "ANDROIDLITE\t2.10.3\tAndroid OS\t5.1.1",
+        "x-lal": "en_ID",
+        "X-Line-Carrier": "51010,1-0"
+    },
+    "android": {
+        "User-Agent": "Line/9.2.2",
+        "X-Line-Access": null,
+        "X-Line-Application": "ANDROID\t9.2.2\tAndroid OS\t5.1.1",
+        "x-lal": "en_ID",
+        "X-Line-Carrier": "51010,1-0"
+    },
+    "ios_ipad": {
+        "User-Agent": "Line/9.18.1",
+        "X-Line-Access": null,
+        "X-Line-Application": "IOSIPAD\t9.18.1\tiPhone 8\t11.2.5",
+        "x-lal": "en_ID",
+        "X-Line-Carrier": "51010,1-0"
+    },
+    "ios": {
+        "User-Agent": "Line/9.18.1",
+        "X-Line-Access": null,
+        "X-Line-Application": "IOS\t9.18.1\tiPhone 8\t11.2.5",
+        "x-lal": "en_ID",
+        "X-Line-Carrier": "51010,1-0"
+    },
+    "chrome": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36",
+        "X-Line-Application": "CHROMEOS\t2.3.2\tChrome OS\t1",
+		"X-Line-Access": null,
+        "x-lal": "en_ID",
+        "X-Line-Carrier": "51010,1-0"
+    }
+}

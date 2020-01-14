@@ -1,0 +1,199 @@
+{
+    "autoadd": {
+        "change": 0,
+        "status": false,
+        "text": "Thanks for add me :)"
+    },
+    "autoblock": {
+        "change": 0,
+        "status": false
+    },
+    "autodirectlink": {
+        "status": false
+    },
+    "autojoin": {
+        "change": 0,
+        "status": false,
+        "text": "Thanks for invite me :)"
+    },
+    "autoleave": {
+        "change": 0,
+        "status": false,
+        "text": "Sorry i don't want join group :("
+    },
+    "autolike": {
+        "change": 0,
+        "status": false,
+        "text": "Liked by free selfbot BotEater Team"
+    },
+    "autoread": {
+        "change": 0,
+        "status": false
+    },
+    "autorejectgroup": {
+        "change": 0,
+        "status": false
+    },
+    "autorespond": {
+        "change": 0,
+        "status": false,
+        "text": "Sorry i'm not online right now"
+    },
+    "chatbotmode": {
+        "change": 0,
+        "data": {
+            "audio": {},
+            "img": {},
+            "sticker": {},
+            "text": {},
+            "video": {}
+        },
+        "status": false
+    },
+    "cover": {
+        "status": 0
+    },
+    "cvp": {
+        "status": 0
+    },
+    "detectmention": {
+        "change": 0,
+        "status": false,
+        "text": "Hello, what's up???"
+    },
+    "detectpost": {
+        "status": false
+    },
+    "detectsticker": {
+        "change": 0,
+        "status": false
+    },
+    "detectunsend": {
+        "change": 0,
+        "status": false
+    },
+    "fbc": {
+        "status": 0
+    },
+    "gbc": {
+        "status": 0
+    },
+    "language": [
+        [
+            "af",
+            "zh-cn",
+            "zh-tw",
+            "sq",
+            "ar",
+            "hy",
+            "az",
+            "eu",
+            "be",
+            "bn",
+            "bs",
+            "bg",
+            "ca",
+            "ny",
+            "zh",
+            "zh",
+            "hr",
+            "cs",
+            "da",
+            "nl",
+            "en",
+            "eo",
+            "et",
+            "tl",
+            "fi",
+            "fr",
+            "gl",
+            "ka",
+            "de",
+            "el",
+            "gu",
+            "ht",
+            "ha",
+            "iw",
+            "hi",
+            "hu",
+            "is",
+            "ig",
+            "id",
+            "ga",
+            "it",
+            "ja",
+            "jw",
+            "kn",
+            "kk",
+            "km",
+            "ko",
+            "lo",
+            "la",
+            "lv",
+            "lt",
+            "mk",
+            "mg",
+            "ms",
+            "ml",
+            "mt",
+            "mi",
+            "mr",
+            "mn",
+            "my",
+            "ne",
+            "no",
+            "fa",
+            "pl",
+            "pt",
+            "pa",
+            "ro",
+            "ru",
+            "sr",
+            "st",
+            "si",
+            "sk",
+            "sl",
+            "so",
+            "es",
+            "su",
+            "sw",
+            "sv",
+            "tg",
+            "ta",
+            "te",
+            "th",
+            "tr",
+            "uk",
+            "ur",
+            "uz",
+            "vi",
+            "cy",
+            "yi",
+            "yo",
+            "zu"
+        ]
+    ],
+    "leaverespond": {
+        "change": 0,
+        "status": false,
+        "text": "One member has gone :("
+    },
+    "pp": {
+        "status": 0
+    },
+    "sider": {
+        "change": 0,
+        "groups": [],
+        "status": false,
+        "text": "Don't be silent reader please..."
+    },
+    "vcover": {
+        "status": 0
+    },
+    "welcomerespond": {
+        "change": 0,
+        "status": false,
+        "text": "Welcome to group :)"
+    },
+	"status": 200
+}
