@@ -17,4 +17,4 @@ apt-get update -y && apt-get install python3-pip -y && pip3 install thrift && gi
 
 
 ## INSTALATION IN TERMUX ##
-pkg install python -y && pkg install git -y && pip install thrift && git clone https://github.com/herywinarto/SB-Boteater.git && cd SB-Boteater && python3 sb.py
+pkg install python -y && pkg install git -y && pip install thrift && pip install requests && git clone https://github.com/herywinarto/SB-Boteater.git && cd SB-Boteater && python sb.py
