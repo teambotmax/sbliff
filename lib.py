@@ -8,7 +8,8 @@ from random import randint
 
 class Boteater():
     def __init__(self, my_app, my_token=None):
-        self.line_server = "https://ga2.line.naver.jp"
+        self.line_server = "https://ga2.line.naver.jp" #Japan
+        #self.line_server = "https://ga2s.line.naver.jp" #Indo/Singapure
         self.line_obs = "https://obs-sg.line-apps.com"
         self.boteater_api = "https://api.boteater.us"
         self.liff_url = "https://api.line.me/message/v3/share"
