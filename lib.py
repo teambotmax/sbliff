@@ -373,7 +373,7 @@ class Boteater():
             arr.append(arrData)
             ret+= "@x\n"
             num+=1
-            if num == 30:
+            if num == 20:
                 self.send_message(gmid, ret, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
                 num=1
                 arr= []
