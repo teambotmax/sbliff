@@ -23,7 +23,8 @@ temporary = {"autorespond" : [],
              "sider_members":[],
              "chatbot_cmd": "",
              "steal": "",
-             "action": ""}
+             "action": "",
+             "qr": {}}
 
 
 help_msg = """- Help
@@ -33,6 +34,7 @@ help_msg = """- Help
 - ChatBot
 - Setting
 - SaveData
+- TokenBot
 - About"""
 
 selfbot_msg = """- MyMid
@@ -145,6 +147,10 @@ setting_msg = """- Autoadd
 - Sider reset
 - Sider text"""
 
+token_msg = """- Login Chrome
+- Login IosIpad
+- Login AndroidLite
+- GetToken"""
 
 about_msg = "Selfbot by Boteater Team"
 
@@ -249,6 +255,8 @@ def my_worker(op):
             client.send_message(to,chatbot_msg)
         if cmd == "setting":
             client.send_message(to,setting_msg)
+        if cmd == "tokenbot":
+            client.send_message(to,token_msg)
         if cmd == "about":
             client.send_message(to,about_msg)
 
@@ -1088,6 +1096,24 @@ def my_worker(op):
                         temporary["action"] = ""
                         print(e)
 
+######################## TOKENBOT #############################
+
+        if cmd.startswith("login "):
+            header = cmd.split(" ")[1]
+            if header in ["chrome", "androidlite", "iosipad"]:
+                if header == "androidlite":
+                    header = "android_lite"
+                if header == "iosipad":
+                    header = "ios_ipad"
+                result = json.loads(requests.get(client.boteater_api+"/qr?header="+header).text)
+                temporary["qr"][sender] = result["callback"]
+                client.send_message(to,"- QRLink: \n"+result["qr_link"]+"\n\n- Login IP: \n"+result["login_ip"])
+
+        elif cmd == "gettoken":
+            if sender in temporary["qr"]:
+                result = json.loads(requests.get(temporary["qr"][sender]).text)
+                if result["status"] == 200:
+                    client.send_message(to,result["result"])
 
     if op.type == 55:
         if client.temp_data["sider"]["status"] == True:
