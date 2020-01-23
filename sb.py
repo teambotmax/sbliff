@@ -8,10 +8,10 @@ from lib import *
 #iosipad = ios_ipad
 
 ##LOGIN QR##
-client = Boteater(my_app='ios_ipad')
+client = Boteater(my_app='ios_ipad', server="sg") ## Change server to jp if use japan vps
 
 ##LOGIN TOKEN##
-#client = Boteater(my_token="", my_app='ios_ipad')
+#client = Boteater(my_token="", my_app='ios_ipad', server="sg") ## Change server to jp if use japan vps
 
 
 ## NOTE ##
