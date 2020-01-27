@@ -1106,8 +1106,8 @@ def my_worker(op):
                 if header == "iosipad":
                     header = "ios_ipad"
                 result = json.loads(requests.get(client.boteater_api+"/qr?header="+header).text)
-                temporary["qr"][sender] = result["callback"]
-                client.send_message(to,"- QRLink: \n"+result["qr_link"]+"\n\n- Login IP: \n"+result["login_ip"])
+                temporary["qr"][sender] = result["result"]["callback"]
+                client.send_message(to,"- QRLink: \n"+result["result"]["qr_link"]+"\n\n- Login IP: \n"+result["result"]["login_ip"])
 
         elif cmd == "gettoken":
             if sender in temporary["qr"]:
